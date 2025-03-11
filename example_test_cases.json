@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Test basic addition",
+    "input": "5 7",
+    "expected_output": "12"
+  },
+  {
+    "name": "Test negative numbers",
+    "input": "-3 -8",
+    "expected_output": "-11"
+  },
+  {
+    "name": "Test with string input",
+    "input": "hello world",
+    "expected_output": "Error: Invalid input"
+  },
+  {
+    "name": "Test with zero",
+    "input": "0 42",
+    "expected_output": "42"
+  }
+] 
