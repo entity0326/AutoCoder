@@ -20,9 +20,10 @@ AutoCoder is a self-improving AI coding agent that can:
 ## Installation
 
 1. Clone this repository
-2. Install Ollama from [https://ollama.ai/](https://ollama.ai/)
-3. Pull a coding-capable model: `ollama pull codellama`
-4. Install Python dependencies: `pip install -r requirements.txt`
+2. Install Ollama from [https://ollama.com/](https://ollama.com/)
+3. Pull a coding-capable model: `ollama pull llama3.1:8b`
+   *_Refer to https://github.com/ollama/ollama for specific models_
+5. Install Python dependencies: `pip install -r requirements.txt`
 
 ## Usage
 
@@ -35,7 +36,7 @@ python autocoder.py --task "Create a function that calculates the factorial of a
 ### Advanced Options
 
 ```bash
-python autocoder.py --task "Your coding task description" --model "codellama" --temperature 0.2 --max-iterations 3 --output-dir "output" --test-file "your_test_cases.json"
+python autocoder.py --task "Your coding task description" --model "llama3.1:8b" --temperature 0.2 --max-iterations 3 --output-dir "output" --test-file "your_test_cases.json"
 ```
 
 ### Self-Improvement Mode
